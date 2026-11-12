@@ -1,0 +1,7 @@
+:root{color-scheme:light dark;--bg:#f2f2f7;--card:#fff;--fg:#000;--mute:#6c6c70;--link:#007aff}
+@media (prefers-color-scheme:dark){:root{--bg:#000;--card:#1c1c1e;--fg:#fff;--mute:#98989f;--link:#0a84ff}}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.5 -apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif}
+main{max-width:720px;margin:0 auto;padding:24px 16px 64px}
+section{background:var(--card);border-radius:20px;padding:4px 20px 12px;margin:16px 0}
+h1{font-size:30px;margin:24px 0 4px}h2{font-size:20px;margin-top:20px}
+a{color:var(--link)}.mute{color:var(--mute);font-size:14px}nav a{margin-right:16px}
